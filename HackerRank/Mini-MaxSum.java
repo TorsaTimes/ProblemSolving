@@ -17,6 +17,53 @@ class Result {
      *
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
+    
+    
+    
+//      public static void miniMaxSum(List<Integer> arr) {
+//     // Write your code here
+//         int fNum = (arr.size())-1;
+//         BigInteger res = BigInteger.valueOf(0);
+//         //BigInteger res = new BigInteger("0");
+        
+//         BigInteger max = BigInteger.valueOf(0);
+//         BigInteger min = BigInteger.valueOf(0);
+        
+//         for(int i = 0;i<=fNum;i++){
+//             for(int y = 0;y<=fNum;y++){
+//                 if(i == y){
+//                     continue;
+//                 }
+//                 else{
+//                     BigInteger temp = BigInteger.valueOf(arr.get(y));
+//                     res = res.add(temp);
+                    
+//                 }
+//             }
+//             int boolMax;
+//             int boolMin;
+            
+//             boolMax = res.compareTo(max);
+//             boolMin = res.compareTo(min);
+            
+//             if (min.compareTo(BigInteger.ZERO) == 0){
+//                 min = res;
+//             }
+            
+//             if(boolMax == 1){
+//                 max = res;
+//             }
+//             else if(boolMin == -1){
+//                 min = res;
+//             }
+
+//             res = BigInteger.valueOf(0);
+//         }
+//         System.out.println(min + " " + max);
+//     }
+
+// }
+
 
     public static void miniMaxSum(List<Integer> arr) {
     // Write your code here
